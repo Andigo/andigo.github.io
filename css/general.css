@@ -19,13 +19,6 @@
   /* Путь к файлу со шрифтом */
 }
 
-body {
-  position: relative;
-  margin: 0;
-  padding: 0;
-  background-image: url(../img/bkg2.png);
-}
-
 body body,
 body div,
 body dl,
@@ -703,10 +696,6 @@ footer .footer-email {
 }
 
 @media screen and (max-width: 780px) {
-  body {
-    background: #fff;
-  }
-
   header {
     padding-left: 0px;
     padding-right: 0px;
