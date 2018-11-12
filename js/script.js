@@ -5,14 +5,7 @@ window.onload = function(){
 
   (function() {
  
-  "use strict";
- 
-  var toggles = document.querySelectorAll(".c-hamburger");
- 
-  for (var i = toggles.length - 1; i >= 0; i--) {
-    var toggle = toggles[i];
-    toggleHandler(toggle);
-  };
+  "use strict"; 
  
   function toggleHandler(toggle) {
     toggle.addEventListener( "click", function(e) {
