@@ -5,6 +5,7 @@ window.onload = function(){
 
   (function() {
  
+<<<<<<< HEAD
   "use strict"; 
  
   function toggleHandler(toggle) {
@@ -13,6 +14,13 @@ window.onload = function(){
       (this.classList.contains("is-active") === true) ? this.classList.remove("is-active") : this.classList.add("is-active");
     });
   }
+=======
+  "use strict";
+ 
+   $('#nav-icon1,#nav-icon2,#nav-icon3,#nav-icon4').click(function(){
+    $(this).toggleClass('open');
+  });
+>>>>>>> 4baeb905200ec077d2bb4c3a7c8058b0d4ebda10
  
 })();
 
@@ -32,4 +40,6 @@ $(document).on("scroll", function(){
         }, 400)
       })
 }
+
+
 
