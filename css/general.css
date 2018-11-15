@@ -462,8 +462,12 @@ header .header-mobbtn span {
 }
 
 .skills-exp h1 {
-  font-size: 30px;
+  font-size: 36px;
   color: #4169E1;
+}
+
+.skills-exp h1 span {
+  color: #ff0000;
 }
 
 .skills-exp h2 {
@@ -473,12 +477,14 @@ header .header-mobbtn span {
 }
 
 .skills-exp-items {
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
+  -o-flex-wrap: wrap;
   flex-wrap: wrap;
-  margin-left: -15px;
-  margin-right: -15px;
 }
 
 .skills-exp-items figure {
