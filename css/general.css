@@ -282,10 +282,12 @@ th {
 .styleH1 {
   font-size: 36px;
   color: #4169E1;
+  text-shadow: 2px 2px 2px rgba(28, 110, 164, 0);
 }
 
 .styleH1 span {
   color: #ff0000;
+  text-shadow: 2px 2px 2px rgba(28, 110, 164, 0);
 }
 
 .styleH2 {
@@ -526,10 +528,12 @@ header .header-mobbtn span {
 .skills-exp h1 {
   font-size: 36px;
   color: #4169E1;
+  text-shadow: 2px 2px 2px rgba(28, 110, 164, 0);
 }
 
 .skills-exp h1 span {
   color: #ff0000;
+  text-shadow: 2px 2px 2px rgba(28, 110, 164, 0);
 }
 
 .skills-exp h2 {
@@ -641,10 +645,12 @@ header .header-mobbtn span {
 .portfolio-wr h1 {
   font-size: 36px;
   color: #4169E1;
+  text-shadow: 2px 2px 2px rgba(28, 110, 164, 0);
 }
 
 .portfolio-wr h1 span {
   color: #ff0000;
+  text-shadow: 2px 2px 2px rgba(28, 110, 164, 0);
 }
 
 .portfolio-wr h2 {
@@ -689,9 +695,27 @@ header .header-mobbtn span {
   cursor: pointer;
 }
 
+.portfolio-items a figure img {
+  width: 100%;
+  height: auto;
+}
+
 .portfolio-items a figure figcaption {
-  font-size: 20px;
+  margin-top: 15px;
+  font-size: 25px;
   color: #4682B4;
+  text-align: center;
+}
+
+.portfolio-items a figure span {
+  margin-top: 15px;
+  font-size: 25px;
+  background: #4682B4;
+  text-align: center;
+  color: #fff;
+  padding: 10px;
+  width: 100%;
+  display: none;
 }
 
 .works {
