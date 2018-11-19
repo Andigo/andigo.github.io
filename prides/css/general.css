@@ -158,8 +158,6 @@ body img {
   display: -webkit-box;
   display: flex;
   flex-wrap: wrap;
-  margin-left: -7.5px;
-  margin-right: -7.5px;
   margin: 0 auto;
   min-height: 160px;
 }
@@ -222,8 +220,6 @@ body img {
   display: -webkit-box;
   display: flex;
   flex-wrap: wrap;
-  margin-left: -7.5px;
-  margin-right: -7.5px;
   margin: 0 auto;
   height: auto;
 }
@@ -529,8 +525,6 @@ body img {
   display: -webkit-box;
   display: flex;
   flex-wrap: wrap;
-  margin-left: -7.5px;
-  margin-right: -7.5px;
   margin: 0 auto;
 }
 .footer-content {
