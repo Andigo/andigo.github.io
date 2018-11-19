@@ -179,7 +179,7 @@ body img {
 }
 @media screen and (max-width: 480px) {
   .userside-title-content {
-    width: calc(100% - 15px);
+    width: 100%;
   }
 }
 @media screen and (max-width: 480px) {
@@ -236,7 +236,7 @@ body img {
 }
 @media screen and (max-width: 480px) {
   .userside-wrapper aside {
-    width: calc(100% - 15px);
+    width: 100%;
   }
 }
 .userside-wrapper aside nav ul li {
@@ -281,7 +281,7 @@ body img {
   color: #808592;
 }
 .userside-wrapper main {
-  width: calc(66.66666666666667% - 15px);
+  width: calc(66.66666666666667% - 15px);  
   background-color: #f7f8f8;
   height: 600px;
   min-height: 100%;
@@ -291,9 +291,9 @@ body img {
 }
 @media screen and (max-width: 480px) {
   .userside-wrapper main {
-    width: calc(100% - 15px);
+    width: 100%;
   }
-}
+} 
 @media screen and (max-width: 768px) {
   .userside-wrapper main {
     height: 750px;
@@ -538,7 +538,7 @@ body img {
 }
 @media screen and (max-width: 480px) {
   .footer-content {
-    width: calc(100% - 15px);
+    width: 100%;
   }
 }
 @media screen and (max-width: 480px) {

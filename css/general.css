@@ -2,6 +2,10 @@
 
 @import url('https://fonts.googleapis.com/css?family=Handlee');
 
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond:400,500,600');
+
+@import url('https://fonts.googleapis.com/css?family=M+PLUS+1p:400,500,700');
+
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -564,6 +568,8 @@ header .header-mobbtn span {
   -ms-flex-align: center;
   align-items: center;
   transition: background 0.4s ease-in;
+  padding-top: 15px;
+  border-radius: 7px;
 }
 
 .skills-exp-items figure img {
@@ -577,6 +583,14 @@ header .header-mobbtn span {
   font-size: 24px;
   font-weight: 700;
   color: #ff0000;
+}
+
+.skills-exp-items figure p {
+  text-align: justify;
+  padding: 5px 25px 5px 25px;
+  line-height: 1.5;
+  font-family: 'M PLUS 1p', sans-serif;
+  font-size: 22px;
 }
 
 .skills-exp-items figure:hover {
@@ -676,7 +690,7 @@ header .header-mobbtn span {
 }
 
 .portfolio-items a figure figcaption {
-  font-size: 30px;
+  font-size: 20px;
   color: #4682B4;
 }
 
@@ -851,6 +865,10 @@ footer .footer-email {
 
   .skills-exp-items figure figcaption {
     font-size: 22px;
+  }
+
+  .portfolio-items a {
+    width: calc(50% - 30px);
   }
 
   .works {
@@ -1045,6 +1063,10 @@ footer .footer-email {
 
   .portfolio-wr h2 {
     font-size: 18px;
+  }
+
+  .portfolio-items a {
+    width: calc(100% - 30px);
   }
 
   .works {
