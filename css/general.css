@@ -689,6 +689,8 @@ header .header-mobbtn span {
   -ms-flex-direction: column;
   -o-flex-direction: column;
   flex-direction: column;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   -ms-align-items: center;
   -ms-flex-align: center;
   align-items: center;

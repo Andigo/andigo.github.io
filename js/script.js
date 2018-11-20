@@ -12,15 +12,6 @@ $('.header-mobbtn').on('click', function(){
   }
 });
 
-$('.portfolio .portfolio-items a').on('mouseover', function(){
-	$(this).find('figcaption').hide(300);
-	$(this).find('span').show(300);
-})
-$('.portfolio .portfolio-items a').on('mouseout', function(){
-	$(this).find('figcaption').show(300);
-	$(this).find('span').hide(300);
-})
-
 $('.footer-copyright span').html(new Date().getFullYear());
 
 

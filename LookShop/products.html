@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>LookShop</title>
+	<link rel="stylesheet" type="text/css" href="css/general.css">
+	<meta name="viewport" content="width=device-width">
+	<script type="text/javascript" src="http://code.jquery.com/jquery-2.1.3.min.js"></script>
+</head>
+<body>
+	<header>
+	<div class="header-block1">
+		<div class="header-block1-custom">
+			<p>custom care: 888-23-45678</p>
+		</div>
+		<div class="header-block1-account">
+			<div class="currency">
+				<select name="currency">
+					<option value="us">$ US</option>
+					<option value="ru">P RU</option>
+					<option value="eu">€ EU</option>
+				</select>
+			</div>
+			<div class="account">
+				<div class="user-pic"></div>
+				<p>my account</p>
+			</div>
+			<div class="search"></div>
+		</div>
+	</div>
+	<div class="header-block2">
+		<div class="header-block2-wr">
+			<div class="header-block2-wr-logo"></div>
+			<div class="header-block2-menu">
+				<nav class="header-block2-wr-menu">
+					<ul>
+						<li>new</li>
+						<li>designers</li>
+						<li>women</li>
+						<li>men</li>
+						<li>clearance</li>
+					</ul>
+				</nav>
+				<div class="header-block2-wr-cart">
+					<div class="header-block2-wr-cart-info">Your cart</div>
+					<div class="header-block2-wr-cart-account">0 items | 0 $</div>
+				</div>
+			</div>
+		</div>	
+		<div class="header-block2-hiddenmenu">
+			<h1>Menu</h1>
+		</div>	
+	</div>	
+</header>	
+	<section class="path">
+	<div class="path-line"></div>
+	<div class="path-text">
+		<a href="index.html"><img src="img/home.png" alt="home"></a>
+		<ul>
+			<li>Women</li>
+			<li>Clothing</li>
+		</ul>
+	</div>
+	<div class="path-line"></div>
+</section>	
+	<main>
+	<div class="prods-slider">
+		<div class="prods-slider-prev"></div>
+		<div class="prods-slider-next"></div>
+		<div class="prods-slider-pics">
+			<div class="prods-slider-pic1"></div>
+			<div class="prods-slider-pic2"></div>
+		</div>
+		<aside class="prods-slider-info">
+			<h1>Open Heart Top</h1>
+			<div class="prods-slider-price">$13.95</div>
+			<div class="prods-slider-text">This is Photoshop’s version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt.</div>
+			<button class="prods-slider-btn">
+				<p>add to cart</p>
+				<img src="img/plus-lg.png" alt="plus">
+			</button>
+		</aside>		
+	</div>
+	<div class="prods-slider-rounds">
+		<ul class="switch-container">
+			<li class="switch-painted"></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+		</ul>
+	</div>
+</main>
+	<section class="prodcontent">
+	<div class="prodcontent-result">
+		<div class="prodcontent-result-sort">
+			<div class="prodcontent-result-sortby">
+				<div class="prodcontent-result-sortby-text">
+					Sort by
+				</div>
+				<select name="sort" id="sort" class="prodcontent-result-select">
+					<option value="date">Date</option>
+					<option value="price">Price</option>
+					<option value="size">Size</option>
+				</select>
+			</div>
+			<div class="prodcontent-result-showing">
+				<div class="prodcontent-result-showing-text">
+					Showing 1-12 of 347 results
+				</div>
+				<nav class="prodcontent-result-showing-square">
+					<li>1</li>
+					<li>2</li>
+					<li>3</li>
+					<li>></li>
+				</nav>
+			</div>
+		</div>
+		<div class="prodcontent-result-gallery">
+			<div class="prodcontent-result-galleryrow">
+				<div class="prodcontent-result-galleryrow-pic prodsgallery-pic1">
+					<div class="top-gallery-pictures-shopit">
+						<img src="img/cart-white.png" alt="cart">
+						<a href="product.html">shop it</a>
+					</div>
+					<div class="gallery-picture-info">
+						<div class="gallery-picture-info-name">nadia dress</div>
+						<div class="gallery-picture-info-price">$64.95</div>
+						<div class="gallery-picture-info-cart">add to cart</div>
+					</div>
+				</div>
+				<div class="prodcontent-result-galleryrow-pic prodsgallery-pic2">
+					<div class="top-gallery-sale"><p>SALE</p></div>
+					<div class="top-gallery-pictures-shopit">
+						<img src="img/cart-white.png" alt="cart">
+						<a href="product.html">shop it</a>
+					</div>
+					<div class="gallery-picture-info">
+						<div class="gallery-picture-info-name">sofi blouse</div>
+						<div class="gallery-picture-info-price">$26.95</div>
+						<div class="gallery-picture-info-cart">add to cart</div>
+					</div>
+				</div>
+				<div class="prodcontent-result-galleryrow-pic
+				prodsgallery-pic3">
+					<div class="top-gallery-pictures-shopit">
+						<img src="img/cart-white.png" alt="cart">
+						<a href="product.html">shop it</a>
+					</div>
+					<div class="gallery-picture-info">
+						<div class="gallery-picture-info-name">gooding shorts</div>
+						<div class="gallery-picture-info-price">$79.95</div>
+						<div class="gallery-picture-info-cart">add to cart</div>
+					</div>
+				</div>
+			</div>
+			<div class="prodcontent-result-galleryrow">
+				<div class="prodcontent-result-galleryrow-pic prodsgallery-pic4">
+					<div class="top-gallery-pictures-shopit">
+						<img src="img/cart-white.png" alt="cart">
+						<a href="product.html">shop it</a>
+					</div>
+					<div class="gallery-picture-info">
+						<div class="gallery-picture-info-name">nadia dress</div>
+						<div class="gallery-picture-info-price">$64.95</div>
+						<div class="gallery-picture-info-cart">add to cart</div>
+					</div>
+				</div>
+				<div class="prodcontent-result-galleryrow-pic prodsgallery-pic5">
+					<div class="top-gallery-pictures-shopit">
+						<img src="img/cart-white.png" alt="cart">
+						<a href="product.html">shop it</a>
+					</div>
+					<div class="gallery-picture-info">
+						<div class="gallery-picture-info-name">sofi blouse</div>
+						<div class="gallery-picture-info-price">$26.95</div>
+						<div class="gallery-picture-info-cart">add to cart</div>
+					</div>
+				</div>
+				<div class="prodcontent-result-galleryrow-pic prodsgallery-pic6">
+					<div class="top-gallery-pictures-shopit">
+						<img src="img/cart-white.png" alt="cart">
+						<a href="product.html">shop it</a>
+					</div>
+					<div class="gallery-picture-info">
+						<div class="gallery-picture-info-name">gooding shorts</div>
+						<div class="gallery-picture-info-price">$79.95</div>
+						<div class="gallery-picture-info-cart">add to cart</div>
+					</div>
+				</div>
+			</div>
+			<div class="prodcontent-result-galleryrow">
+				<div class="prodcontent-result-galleryrow-pic prodsgallery-pic7">
+					<div class="top-gallery-pictures-shopit">
+						<img src="img/cart-white.png" alt="cart">
+						<a href="product.html">shop it</a>
+					</div>
+					<div class="gallery-picture-info">
+						<div class="gallery-picture-info-name">nadia dress</div>
+						<div class="gallery-picture-info-price">$64.95</div>
+						<div class="gallery-picture-info-cart">add to cart</div>
+					</div>
+				</div>
+				<div class="prodcontent-result-galleryrow-pic prodsgallery-pic8">
+					<div class="top-gallery-sale"><p>SALE</p></div>
+					<div class="top-gallery-pictures-shopit">
+						<img src="img/cart-white.png" alt="cart">
+						<a href="product.html">shop it</a>
+					</div>
+					<div class="gallery-picture-info">
+						<div class="gallery-picture-info-name">sofi blouse</div>
+						<div class="gallery-picture-info-price">$26.95</div>
+						<div class="gallery-picture-info-cart">add to cart</div>
+					</div>
+				</div>
+				<div class="prodcontent-result-galleryrow-pic prodsgallery-pic9">
+					<div class="top-gallery-pictures-shopit">
+						<img src="img/cart-white.png" alt="cart">
+						<a href="product.html">shop it</a>
+					</div>
+					<div class="gallery-picture-info">
+						<div class="gallery-picture-info-name">gooding shorts</div>
+						<div class="gallery-picture-info-price">$79.95</div>
+						<div class="gallery-picture-info-cart">add to cart</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="prodcontent-result-sort1">			
+			<div class="prodcontent-result-showing">
+				<div class="prodcontent-result-showing-text">
+					Showing 1-12 of 347 results
+				</div>
+				<nav class="prodcontent-result-showing-square">
+					<li>1</li>
+					<li>2</li>
+					<li>3</li>
+					<li>></li>
+				</nav>
+			</div>
+		</div>
+	</div>
+	<aside class="prodcontent-params">
+		<div class="prodcontent-params-filter">
+			<div class="prodcontent-params-header">
+				categories
+			</div>
+			<div class="prodcontent-params-new">
+				<span>new</span><img src="img/products/plus-prods.png" alt="" width="6" height = "6">
+			</div>
+			<div class="prodcontent-params-line"></div>
+			<div class="prodcontent-params-designers">
+				<span>designers</span><img src="img/products/plus-prods.png" alt="" width="6" height = "6">
+			</div>
+			<div class="prodcontent-params-line"></div>
+			<div class="prodcontent-params-women">
+				<span>women</span><img src="img/products/plus-prods.png" alt="" width="6" height = "6">
+			</div>
+			<div class="prodcontent-params-line"></div>
+			<div class="prodcontent-params-men">
+				<span>men</span><img src="img/products/plus-prods.png" alt="" width="6" height = "6">
+			</div>
+			<div class="prodcontent-params-line"></div>
+			<div class="prodcontent-params-clearance">
+				<span>clearance</span><img src="img/products/plus-prods.png" alt="" width="6" height = "6">
+			</div>
+			<div class="prodcontent-params-line"></div>		
+			<div class="prodcontent-params-filterbar">		
+				<input type="range" class="min" name="mini" multiplay min="0" max="100" step="1" value="0">	
+				<input type="range" class="max" name="maxi" multiplay min="0" max="100" step="1" >	
+				<div class="prodcontent-params-rangeline"></div>	
+			</div>
+			<div class="prodcontent-params-price">
+				<p>price $<span>0</span>-$<span>200</span></p>
+				<button>filter</button>
+			</div>
+			<p class="prodcontent-params-size">select your size</p>
+			<nav class="prodcontent-params-square">
+					<li>xs</li>
+					<li>s</li>
+					<li>m</li>
+					<li>l</li>
+					<li>xl</li>
+			</nav>
+			<div class="prodcontent-params-header">
+				on sale
+			</div>
+			<div class="prodcontent-params-block">
+				<div class="prodcontent-params-block-pic params-block-pic1">	
+				</div>
+				<div class="prodcontent-params-block-text">	
+					<p>pintuck tank</p>
+					<span>$45.55</span>
+				</div>
+			</div>
+			<div class="prodcontent-params-line"></div>
+			<div class="prodcontent-params-block">
+				<div class="prodcontent-params-block-pic params-block-pic2">	
+				</div>
+				<div class="prodcontent-params-block-text">	
+					<p>folicia silk shirt</p>
+					<span>$69.49</span>
+				</div>
+			</div>
+			<div class="prodcontent-params-line"></div>
+			<div class="prodcontent-params-block">
+				<div class="prodcontent-params-block-pic params-block-pic3">	
+				</div>
+				<div class="prodcontent-params-block-text">	
+					<p>laylala shirt</p>
+					<span>$78.25</span>
+				</div>
+			</div>
+			<div class="prodcontent-params-line"></div>
+			<div class="prodcontent-params-header prodcontent-params-block-mrg">
+				featured products
+			</div>
+			<div class="prodcontent-params-block">
+				<div class="prodcontent-params-block-pic params-block-pic4">	
+				</div>
+				<div class="prodcontent-params-block-text">	
+					<p>basic sunglasses</p>
+					<span>$14.95</span>
+				</div>
+			</div>
+			<div class="prodcontent-params-line"></div>
+			<div class="prodcontent-params-block">
+				<div class="prodcontent-params-block-pic params-block-pic5">	
+				</div>
+				<div class="prodcontent-params-block-text">	
+					<p>billie j</p>
+					<span>$69.49</span>
+				</div>
+			</div>
+			<div class="prodcontent-params-line"></div>
+			<div class="prodcontent-params-block">
+				<div class="prodcontent-params-block-pic params-block-pic6">	
+				</div>
+				<div class="prodcontent-params-block-text">	
+					<p>sandie chopperbag</p>
+					<span>$69.95</span>
+				</div>
+			</div>
+			<div class="prodcontent-params-line"></div>
+		</div>		
+	</aside>	
+</section>	
+	<section class="inform">
+	<div class="inform-accept">
+		<div class="inform-accept-text">We accept</div>
+		<div class="inform-accept-cards"></div>
+	</div>
+	<div class="inform-wrapper">
+		<div class="inform-lists">
+			<div class="inform-lists-wrapper">
+				<div class="inform-lists-list">
+					<h2>Customer service</h2>
+					<ul>
+						<li>Contact</li>
+						<li>FAQ</li>
+						<li>Terms of payment</li>
+						<li>Terms of sale</li>
+						<li>Delivery terms and conditions</li>
+						<li>Returns and Refunds</li>
+					</ul>
+				</div>
+				<div class="inform-lists-list">
+					<h2>Information</h2>
+					<ul>
+						<li>Affiliate</li>
+						<li>Cookies</li>
+						<li>How to Shop</li>
+						<li>About Nelly</li>
+						<li>Investor relations</li>
+					</ul>				
+				</div>
+			</div>
+			<div class="inform-lists-wrapper">
+				<div class="inform-lists-list">
+					<h2>Campaigns</h2>
+					<ul>
+						<li>Evening dresses</li>
+						<li>Makeup</li>
+						<li>Fashion forward</li>
+						<li>training clothes</li>
+						<li>Special</li>
+				</div>
+				<div class="inform-lists-list">
+					<h2>Stores</h2>
+					<ul>
+						<li>Paris</li>
+						<li>New York</li>
+						<li>London</li>
+						<li>Madrid</li>
+						<li>Tokyo</li>
+					</ul>				
+				</div>
+			</div>
+		</div>
+		<div class="inform-social">
+			<h2>Social</h2>
+			<div class="inform-social-networks">
+				<div class="inform-social-networks-row">
+					<div class="inform-social-networks-row-tw inform-network"></div>
+					<div class="inform-social-networks-row-p inform-network"></div>
+					<div class="inform-social-networks-row-fb inform-network"></div>
+				</div>
+				<div class="inform-social-networks-row">
+					<div class="inform-social-networks-row-goo inform-network"></div>
+					<div class="inform-social-networks-row-t inform-network"></div>
+					<div class="inform-social-networks-row-v inform-network"></div>
+				</div>
+			</div>			
+		</div>
+		<div class="inform-secured">
+			<div class="inform-secured-shape">
+				<div class="inform-secured-shape-text">
+					<p>100%</p>
+					<span>secured</span>
+				</div>				
+			</div>
+		</div>
+	</div>
+</section>
+	<footer>
+	<div class="footer">
+		<ul class="footer-list">
+			<li>Privacy & Cookies</li>
+			<li>Terms & Conditions</li>
+			<li>Accesibility</li>
+			<li>Store Directory</li>
+			<li>About Us</li>
+		</ul>
+		<div class="footer-hidden"></div>
+		<span>© LookShop.com </br> All Rights Reverved</span>
+	</div>
+</footer>
+	<script src="js/script.js"></script>	
+</body>
+</html>
