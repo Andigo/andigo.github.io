@@ -1,28 +1,5 @@
 window.onload = function(){
-	$(".header-menu").animate({
-		right: 0
-	}, 1000);
-
-  $('.allcat-part-line').owlCarousel({
-        loop: true,
-        margin: 30,
-        responsive: {
-            0: {
-                items: 2,
-                nav: true
-            },
-            780: {
-                items: 3,
-                nav: false
-            },
-            960: {
-                items: 4,
-                nav: true,
-                loop: false
-            }
-        }
-    });
-
+	
   (function() {
  
   "use strict";
