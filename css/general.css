@@ -960,6 +960,10 @@ footer .footer-email {
   footer .footer {
     font-size: 1.8rem;
   }
+
+  .up i {
+    font-size: 50px;
+  }
 }
 
 @media screen and (max-width: 780px) {
@@ -985,7 +989,7 @@ footer .footer-email {
   }
 
   .styleH1 {
-    font-size: 32px;
+    font-size: 26px;
   }
 
   .styleH2 {
@@ -1115,7 +1119,7 @@ footer .footer-email {
   }
 
   .skills-exp h1 {
-    font-size: 32px;
+    font-size: 26px;
   }
 
   .skills-exp h2 {
@@ -1151,7 +1155,7 @@ footer .footer-email {
   }
 
   .portfolio-wr h1 {
-    font-size: 32px;
+    font-size: 26px;
   }
 
   .portfolio-wr h2 {
@@ -1179,7 +1183,7 @@ footer .footer-email {
   }
 
   .contacts-wr h1 {
-    font-size: 32px;
+    font-size: 26px;
   }
 
   .contacts-social nav li a i {
@@ -1214,6 +1218,10 @@ footer .footer-email {
 
   footer .footer {
     font-size: 1.5rem;
+  }
+
+  .up i {
+    font-size: 40px;
   }
 }
 
