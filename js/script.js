@@ -28,6 +28,12 @@ $(document).on("scroll", function(){
       })
 }
 
+window.onresize = function() {
+    if(window.screen.width < '960px'){
+      $('.header-menu li').slideDown(300).addClass('open');
+    }
+};
+
 
 
 
