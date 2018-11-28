@@ -25,15 +25,29 @@ $(document).on("scroll", function(){
         $("html, body").animate({
           scrollTop: 0
         }, 400)
-      })
+      });
 }
 
 window.onresize = function() {
-    if(window.screen.width < '960px'){
-      $('.header-menu li').slideDown(300).addClass('open');
+    if ($(window).width() > '780'){
+       $('.header-menu li').slideDown(300).addClass('open');
+    }else{
+       $('.header-menu li').slideUp(300).removeClass('open');
     }
 };
 
+// Page Scroll
+jQuery(document).ready(function ($) {
+	$('.header-menu li a').click(function() {
+    $('.header-menu li a').removeClass('active').filter($(this)).addClass('active');
+			var selector = $(this).attr('href');
+			var target = $(selector);
+				$('html,body').animate({
+					scrollTop: target.offset().top - 30
+				}, 1000);
+		});	
+			
+});
 
 
 

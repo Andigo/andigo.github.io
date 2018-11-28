@@ -8,6 +8,8 @@
 
 @import url('https://fonts.googleapis.com/css?family=Jaldi');
 
+@import url('https://fonts.googleapis.com/css?family=Sriracha');
+
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -342,7 +344,7 @@ header .header-logo a {
   text-decoration: none;
   color: #fff;
   font-size: 36px;
-  font-family: 'Handlee', cursive;
+  font-family: Sriracha, sans-serif;
 }
 
 header .header-menu {
@@ -847,7 +849,7 @@ footer .footer {
   -ms-flex-align: center;
   align-items: center;
   color: #fff;
-  font-size: 2rem;
+  font-size: 32px;
   font-family: 'Titillium Web', sans-serif;
 }
 
@@ -867,8 +869,9 @@ footer .footer-copyright span {
   margin-right: 10px;
 }
 
-footer .footer-email {
+footer .footer-logo {
   margin-right: 15px;
+  font-family: Sriracha, sans-serif;
 }
 
 .post {
@@ -920,7 +923,7 @@ footer .footer-email {
   }
 
   header .header-menu li a {
-    font-size: 22px;
+    font-size: 20px;
   }
 
   .skills-txt {
@@ -949,12 +952,7 @@ footer .footer-email {
   }
 
   footer .footer {
-    -ms-flex-pack: center;
-    justify-content: center;
-  }
-
-  footer .footer {
-    font-size: 1.8rem;
+    font-size: 30px;
   }
 
   .up i {
@@ -1213,7 +1211,7 @@ footer .footer-email {
   }
 
   footer .footer {
-    font-size: 1.5rem;
+    font-size: 26px;
   }
 
   .up i {
@@ -1240,5 +1238,9 @@ footer .footer-email {
 
   .contacts-connect li {
     font-size: 18px;
+  }
+
+  footer .footer {
+    font-size: 22px;
   }
 }
