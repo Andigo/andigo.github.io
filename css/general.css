@@ -334,7 +334,7 @@ header .header-logo {
   flex-basis: 1;
 }
 
-header .header-logo i {
+header .header-logo .fa-globe {
   font-size: 32px;
   color: #fff;
   margin-right: 20px;
@@ -344,7 +344,7 @@ header .header-logo a {
   text-decoration: none;
   color: #fff;
   font-size: 32px;
-  font-family: Sriracha, sans-serif;
+  font-family: 'Handlee', cursive;
 }
 
 header .header-menu {
@@ -404,6 +404,14 @@ header .header-menu li a:hover:after {
 
 header .header-mobsocial {
   display: none;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+header .header-mobsocial i {
+  cursor: pointer;
+  margin-right: 25px;
+  font-size: 30px;
 }
 
 header .header-mobbtn {
@@ -817,6 +825,12 @@ header .header-mobbtn span {
 
 .contacts-connect {
   margin-top: 20px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .contacts-connect li {
@@ -920,8 +934,16 @@ footer .footer-logo {
 }
 
 @media screen and (max-width: 960px) {
-  header .header-logo i {
+  header .header-logo {
+    margin-left: 10px;
+  }
+
+  header .header-logo .fa-globe {
     font-size: 30px;
+  }
+
+  header .header-logo .fa-globe {
+    margin-right: 10px;
   }
 
   header .header-logo a {
@@ -966,7 +988,7 @@ footer .footer-logo {
   }
 }
 
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 620px) {
   .wrapper {
     padding-left: 0px;
     padding-right: 0px;
@@ -1025,7 +1047,7 @@ footer .footer-logo {
     padding: 10px;
   }
 
-  header .header-logo i {
+  header .header-logo .fa-globe {
     font-size: 20px;
   }
 
@@ -1230,9 +1252,25 @@ footer .footer-logo {
   }
 }
 
-@media screen and (max-width: 560px) {
+@media screen and (max-width: 480px) {
+  header .header-logo {
+    margin-left: 5px;
+  }
+
+  header .header-logo .fa-globe {
+    display: none;
+  }
+
   header .header-logo a {
     font-size: 22px;
+  }
+
+  header .header-mobsocial i {
+    font-size: 20px;
+  }
+
+  header .header-mobsocial i {
+    margin-right: 10px;
   }
 
   .skills-txt h1 {

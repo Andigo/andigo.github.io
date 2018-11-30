@@ -29,7 +29,7 @@ $(document).on("scroll", function(){
 }
 
 window.onresize = function() {
-    if ($(window).width() > '780'){
+    if ($(window).width() > '620'){
        $('.header-menu li').slideDown(300).addClass('open');
     }else{
        $('.header-menu li').slideUp(300).removeClass('open');
