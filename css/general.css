@@ -343,7 +343,7 @@ header .header-logo i {
 header .header-logo a {
   text-decoration: none;
   color: #fff;
-  font-size: 36px;
+  font-size: 32px;
   font-family: Sriracha, sans-serif;
 }
 
@@ -400,6 +400,10 @@ header .header-menu li a:after {
 header .header-menu li a:hover:after {
   width: 100%;
   left: 0;
+}
+
+header .header-mobsocial {
+  display: none;
 }
 
 header .header-mobbtn {
@@ -900,6 +904,7 @@ footer .footer-logo {
   bottom: 10%;
   background: transparent;
   border: none;
+  outline: none;
   cursor: pointer;
 }
 
@@ -907,10 +912,11 @@ footer .footer-logo {
   font-size: 60px;
   color: #696969;
   transition: color 0.4s ease-in;
+  border: none;
 }
 
 .up i:hover {
-  color: #8B8989;
+  color: #4169E1;
 }
 
 @media screen and (max-width: 960px) {
@@ -919,7 +925,7 @@ footer .footer-logo {
   }
 
   header .header-logo a {
-    font-size: 32px;
+    font-size: 30px;
   }
 
   header .header-menu li a {
@@ -1063,6 +1069,11 @@ footer .footer-logo {
 
   header .header-menu li a {
     font-size: 18px;
+  }
+
+  header .header-mobsocial {
+    display: -ms-flexbox;
+    display: flex;
   }
 
   header .header-mobbtn {
