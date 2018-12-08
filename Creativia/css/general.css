@@ -1300,8 +1300,6 @@ button {
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  margin-left: -15px;
-  margin-right: -15px;
 }
 .teamwork-pics figure {
   box-sizing: border-box;
@@ -1413,8 +1411,6 @@ button {
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  margin-left: -15px;
-  margin-right: -15px;
   -ms-flex-pack: center;
   justify-content: center;
 }
