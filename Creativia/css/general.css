@@ -507,6 +507,11 @@ button {
   align-items: center;
   cursor: pointer;
 }
+@media screen and (max-width: 640px) {
+  .about-items-item {
+    width: calc(50% - 30px);
+  }
+}
 .about-items-item span {
   text-transform: uppercase;
   font-family: 'Raleway', sans-serif;
@@ -549,11 +554,6 @@ button {
   transform: rotate(90deg);
   margin-bottom: 35px;
   text-align: center;
-}
-@media screen and (max-width: 640px) {
-  .hexagon {
-    display: none;
-  }
 }
 .hexagon:before,
 .hexagon:after {
@@ -627,6 +627,11 @@ button {
   color: #9c9c9c;
   list-style: none;
 }
+@media screen and (max-width: 640px) {
+  .portfolio nav ul {
+    display: block;
+  }
+}
 .portfolio nav ul li {
   font-family: 'Lato', sans-serif;
   font-weight: 700;
@@ -639,12 +644,13 @@ button {
   color: #ff0036;
 }
 .portfolio-pics1 {
-  height: 350px;
+  height: auto;
   display: -moz-flex;
   display: -ms-flex;
   display: -o-flex;
   display: -ms-flexbox;
   display: flex;
+  overflow: hidden;
 }
 @media screen and (max-width: 980px) {
   .portfolio-pics1 {
@@ -652,21 +658,18 @@ button {
     flex-direction: column;
   }
 }
-@media screen and (max-width: 640px) {
-  .portfolio-pics1 {
-    display: none;
-  }
-}
 .portfolio-pics1 img {
-  width: auto;
+  max-width: 100%;
+  height: auto;
 }
 .portfolio-pics2 {
-  height: 350px;
+  height: auto;
   display: -moz-flex;
   display: -ms-flex;
   display: -o-flex;
   display: -ms-flexbox;
   display: flex;
+  overflow: hidden;
 }
 @media screen and (max-width: 980px) {
   .portfolio-pics2 {
@@ -675,10 +678,11 @@ button {
   }
 }
 .portfolio-pics2 img {
-  width: auto;
+  max-width: 100%;
+  height: auto;
 }
 .features {
-  min-height: 990px;
+  height: auto;
   display: -moz-flex;
   display: -ms-flex;
   display: -o-flex;
@@ -751,31 +755,36 @@ button {
   line-height: 22px;
   font-family: 'Lato', sans-serif;
   margin-bottom: 100px;
+  padding-left: 15px;
+  padding-right: 15px;
   color: #737373;
   margin-bottom: 85px;
 }
 @media screen and (max-width: 640px) {
   .features h3 {
-    font-size: 12px;
+    font-size: 14px;
   }
 }
 @media screen and (max-width: 640px) {
   .features h3 {
-    margin-bottom: 50px;
+    margin-bottom: 40px;
   }
 }
 .features h3 span {
   color: #ff0036;
 }
 .features-content {
-  min-width: 100%;
+  max-width: 100%;
   display: -moz-flex;
   display: -ms-flex;
   display: -o-flex;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
   -ms-flex-pack: center;
   justify-content: center;
+  overflow: hidden;
 }
 .features-content-img {
   position: relative;
@@ -832,6 +841,26 @@ button {
   margin-top: 90px;
   padding-right: 25px;
 }
+@media screen and (max-width: 980px) {
+  .features-content-options1 {
+    width: calc(50% - 30px);
+  }
+}
+@media screen and (max-width: 640px) {
+  .features-content-options1 {
+    width: calc(100% - 30px);
+  }
+}
+@media screen and (max-width: 640px) {
+  .features-content-options1 {
+    margin-top: 5px;
+  }
+}
+@media screen and (max-width: 640px) {
+  .features-content-options1 {
+    padding-right: 10px;
+  }
+}
 .features-content-options1 .features-content-option {
   -ms-flex-pack: end;
   justify-content: flex-end;
@@ -844,6 +873,26 @@ button {
   width: calc(33.333333333333336% - 30px);
   margin-top: 90px;
   padding-left: 25px;
+}
+@media screen and (max-width: 980px) {
+  .features-content-options2 {
+    width: calc(50% - 30px);
+  }
+}
+@media screen and (max-width: 640px) {
+  .features-content-options2 {
+    width: calc(100% - 30px);
+  }
+}
+@media screen and (max-width: 640px) {
+  .features-content-options2 {
+    margin-top: 5px;
+  }
+}
+@media screen and (max-width: 640px) {
+  .features-content-options2 {
+    padding-left: 10px;
+  }
 }
 .features-content-option {
   min-height: 53px;
@@ -894,6 +943,11 @@ button {
   min-height: 650px;
   padding-bottom: 95px;
 }
+@media screen and (max-width: 640px) {
+  .clients {
+    min-height: 800px;
+  }
+}
 .clients-bg {
   position: absolute;
   top: 0;
@@ -940,22 +994,29 @@ button {
 .clients h2 span {
   color: #ff0036;
 }
+@media screen and (max-width: 640px) {
+  .clients h2 {
+    margin-bottom: 15px;
+  }
+}
 .clients h3 {
   font-size: 16px;
   font-weight: 700;
   line-height: 22px;
   font-family: 'Lato', sans-serif;
+  padding-left: 15px;
+  padding-right: 15px;
   color: #fff;
   margin-bottom: 100px;
 }
 @media screen and (max-width: 640px) {
   .clients h3 {
-    font-size: 12px;
+    font-size: 14px;
   }
 }
 @media screen and (max-width: 640px) {
   .clients h3 {
-    margin-bottom: 50px;
+    margin-bottom: 40px;
   }
 }
 .clients h3 span {
@@ -968,6 +1029,8 @@ button {
   display: -o-flex;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 .clients-say-txt {
   box-sizing: border-box;
@@ -989,6 +1052,11 @@ button {
   -ms-align-items: center;
   -ms-flex-align: center;
   align-items: center;
+}
+@media screen and (max-width: 640px) {
+  .clients-say-txt {
+    width: calc(100% - 30px);
+  }
 }
 .clients-say-txt article {
   color: #a4a4a4;
@@ -1060,6 +1128,16 @@ button {
   flex-direction: column;
   -ms-flex-pack: justify;
   justify-content: space-between;
+}
+@media screen and (max-width: 640px) {
+  .clients-say-pics {
+    width: calc(100% - 30px);
+  }
+}
+@media screen and (max-width: 640px) {
+  .clients-say-pics {
+    margin-top: 15px;
+  }
 }
 .clients-say-block {
   box-sizing: border-box;
@@ -1198,16 +1276,18 @@ button {
   line-height: 22px;
   font-family: 'Lato', sans-serif;
   margin-bottom: 100px;
+  padding-left: 15px;
+  padding-right: 15px;
   color: #505050;
 }
 @media screen and (max-width: 640px) {
   .teamwork h3 {
-    font-size: 12px;
+    font-size: 14px;
   }
 }
 @media screen and (max-width: 640px) {
   .teamwork h3 {
-    margin-bottom: 50px;
+    margin-bottom: 40px;
   }
 }
 .teamwork h3 span {
@@ -1242,6 +1322,11 @@ button {
   -ms-flex-align: center;
   align-items: center;
   cursor: pointer;
+}
+@media screen and (max-width: 640px) {
+  .teamwork-pics figure {
+    width: calc(50% - 30px);
+  }
 }
 .teamwork-pics figure img {
   max-width: 100%;
@@ -1303,6 +1388,11 @@ button {
   -ms-flex-align: center;
   align-items: center;
 }
+@media screen and (max-width: 640px) {
+  .teamwork-bar {
+    height: 105px;
+  }
+}
 .teamwork-bar-line {
   width: 50%;
   height: 1px;
@@ -1346,6 +1436,12 @@ button {
   -ms-align-items: center;
   -ms-flex-align: center;
   align-items: center;
+  margin-bottom: 15px;
+}
+@media screen and (max-width: 980px) {
+  .teamwork-skills figure {
+    width: calc(41.66666666666667% - 30px);
+  }
 }
 .teamwork-skills figure figcaption {
   color: #262626;
@@ -1383,6 +1479,11 @@ button {
   font-weight: 300;
   line-height: 95px;
   margin-bottom: 20px;
+}
+@media screen and (max-width: 640px) {
+  .teamwork-skills-round {
+    font-size: 36px;
+  }
 }
 .teamwork-skills-round span {
   color: #ff0036;
