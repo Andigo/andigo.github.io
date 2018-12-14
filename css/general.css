@@ -703,18 +703,21 @@ header .header-righttri {
 .skills-exp-items figure img {
   width: 50%;
   height: auto;
-  max-height: 200px;
+  max-height: 350px;
   margin-bottom: 15px;
   border-radius: 7px;
 }
 
 .skills-exp-items figure figcaption {
+  width: 100%;
   font-size: 24px;
   font-weight: 700;
   color: #ff0000;
+  text-align: center;
 }
 
 .skills-exp-items figure p {
+  text-align: justify;
   padding: 5px 25px 5px 25px;
   line-height: 1.5;
   font-family: 'M PLUS 1p', sans-serif;
@@ -1333,6 +1336,10 @@ footer-righttri {
 
   .skills-txt h2 {
     font-size: 26px;
+  }
+
+  .skills-txt h2 {
+    text-align: center;
   }
 
   .skills-txt p {
