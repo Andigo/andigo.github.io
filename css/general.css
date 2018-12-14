@@ -300,8 +300,9 @@ th {
 }
 
 .styleH2 {
+  width: 90%;
   font-size: 22px;
-  text-align: justify;
+  text-align: center;
   margin: 5px 15px 45px 15px;
 }
 
@@ -361,10 +362,18 @@ header .header-logo {
   align-items: center;
 }
 
-header .header-logo .fa-globe {
+header .header-logo .fa-desktop {
   font-size: 32px;
   color: #fff;
-  margin-right: 20px;
+}
+
+header .header-logo .fa-chevron-left {
+  margin-left: 20px;
+  margin-right: 7px;
+}
+
+header .header-logo .fa-chevron-right {
+  margin-left: 7px;
 }
 
 header .header-logo a {
@@ -372,10 +381,12 @@ header .header-logo a {
   color: #fff;
   font-size: 32px;
   font-family: 'Handlee', cursive;
+  margin-left: 10px;
 }
 
 header .header-logo i {
-  margin-left: 20px;
+  font-size: 32px;
+  color: #fff;
 }
 
 header .header-logo-content {
@@ -544,6 +555,7 @@ header .header-righttri {
 }
 
 .skills-txt h2 {
+  width: 90%;
   font-size: 30px;
   font-weight: 500;
   margin-top: -10px;
@@ -637,8 +649,9 @@ header .header-righttri {
 }
 
 .skills-exp h2 {
+  width: 90%;
   font-size: 22px;
-  text-align: justify;
+  text-align: center;
   margin: 5px 15px 45px 15px;
 }
 
@@ -652,11 +665,11 @@ header .header-righttri {
   -ms-flex-wrap: wrap;
   -o-flex-wrap: wrap;
   flex-wrap: wrap;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .skills-exp-items figure {
-  box-sizing: border-box;
-  word-wrap: break-word;
   margin-left: 15px;
   margin-right: 15px;
   width: calc(33.333333333333336% - 30px);
@@ -679,13 +692,18 @@ header .header-righttri {
   -webkit-transition: background 0.4s ease-in;
   transition: background 0.4s ease-in;
   padding-top: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
   border-radius: 7px;
+  box-sizing: border-box;
+  word-wrap: break-word;
   box-shadow: 6px 7px 18px 0px rgba(122, 96, 122, 0.66);
 }
 
 .skills-exp-items figure img {
   width: 50%;
   height: auto;
+  max-height: 200px;
   margin-bottom: 15px;
   border-radius: 7px;
 }
@@ -697,11 +715,11 @@ header .header-righttri {
 }
 
 .skills-exp-items figure p {
-  text-align: justify;
   padding: 5px 25px 5px 25px;
   line-height: 1.5;
   font-family: 'M PLUS 1p', sans-serif;
   font-size: 22px;
+  width: 100%;
 }
 
 .skills-exp-items figure:hover {
@@ -770,8 +788,9 @@ header .header-righttri {
 }
 
 .portfolio-wr h2 {
+  width: 90%;
   font-size: 22px;
-  text-align: justify;
+  text-align: center;
   margin: 5px 15px 45px 15px;
 }
 
@@ -785,6 +804,8 @@ header .header-righttri {
   -ms-flex-wrap: wrap;
   -o-flex-wrap: wrap;
   flex-wrap: wrap;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .portfolio-items a {
@@ -817,11 +838,18 @@ header .header-righttri {
   -ms-flex-align: center;
   align-items: center;
   cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+
+.portfolio-items a figure:hover span {
+  left: 0;
 }
 
 .portfolio-items a figure img {
-  width: 100%;
+  max-width: 100%;
   height: auto;
+  max-height: 200px;
   box-shadow: 6px 7px 18px 0px rgba(122, 96, 122, 0.66);
 }
 
@@ -840,7 +868,11 @@ header .header-righttri {
   color: #fff;
   padding: 10px;
   width: 100%;
-  display: none;
+  position: absolute;
+  bottom: 0;
+  left: -1500px;
+  -webkit-transition: left 0.7s ease-in;
+  transition: left 0.7s ease-in;
 }
 
 .contacts-line {
@@ -1087,20 +1119,16 @@ footer-righttri {
 }
 
 @media screen and (max-width: 960px) {
-  header .header-logo .fa-globe {
+  header .header-logo .fa-desktop {
     font-size: 30px;
   }
 
-  header .header-logo .fa-globe {
-    margin-right: 10px;
-  }
-
   header .header-logo a {
-    font-size: 26px;
+    display: none;
   }
 
   header .header-logo i {
-    margin-left: 10px;
+    font-size: 26px;
   }
 
   header .header-menu li a {
@@ -1206,8 +1234,12 @@ footer-righttri {
     padding: 10px;
   }
 
-  header .header-logo .fa-globe {
+  header .header-logo .fa-desktop {
     font-size: 20px;
+  }
+
+  header .header-logo a {
+    display: block;
   }
 
   header .header-logo a {
@@ -1215,7 +1247,7 @@ footer-righttri {
   }
 
   header .header-logo i {
-    margin-left: 10px;
+    font-size: 24px;
   }
 
   header .header-menu {
@@ -1439,7 +1471,19 @@ footer-righttri {
 }
 
 @media screen and (max-width: 480px) {
-  header .header-logo .fa-globe {
+  header .header-logo .fa-desktop {
+    display: none;
+  }
+
+  header .header-logo .fa-desktop {
+    display: none;
+  }
+
+  header .header-logo .fa-chevron-left {
+    display: none;
+  }
+
+  header .header-logo .fa-chevron-right {
     display: none;
   }
 
@@ -1448,7 +1492,7 @@ footer-righttri {
   }
 
   header .header-logo i {
-    margin-left: 5px;
+    font-size: 22px;
   }
 
   header .header-mobsocial i {

@@ -3,6 +3,8 @@ window.onload = function(){
 		right: 0
 	}, 1000);
 
+  console.log(navigator.userAgent.toLowerCase().indexOf('msie'));
+
 "use strict"
 $('.header-mobbtn').on('click', function(){
   if($('.header-menu li').hasClass('open')){
