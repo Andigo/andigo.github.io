@@ -10,6 +10,10 @@
 
 @import url('https://fonts.googleapis.com/css?family=Sriracha');
 
+@import url('https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,700&subset=cyrillic');
+
+@import url('https://fonts.googleapis.com/css?family=Old+Standard+TT:400,700&subset=cyrillic,cyrillic-ext');
+
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -532,6 +536,7 @@ header .header-righttri {
 
 .skills-txt {
   width: calc(66.66666666666667% - 30px);
+  padding-left: 40px;
   display: -moz-flex;
   display: -ms-flex;
   display: -o-flex;
@@ -585,6 +590,8 @@ header .header-righttri {
 
 .skills-img img {
   border-radius: 50%;
+  height: 80%;
+  width: auto;
 }
 
 .skills-line {
@@ -1121,6 +1128,124 @@ footer-righttri {
   color: #4169E1;
 }
 
+.besure-line {
+  margin: 0 auto;
+  width: 80%;
+  height: 4px;
+  background: #f00f00;
+  margin-bottom: 45px;
+  margin-top: 45px;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.besure-line-rect {
+  width: 20px;
+  height: 20px;
+  background: #f00f00;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.besure-header {
+  min-height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.besure-header h2 {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 46px;
+  text-decoration: underline;
+}
+
+.besure-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.besure-content-text {
+  box-sizing: border-box;
+  word-wrap: break-word;
+  margin-left: 15px;
+  margin-right: 15px;
+  width: calc(58.333333333333336% - 30px);
+  padding: 15px 15px 15px 35px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-ordinal-group: 2;
+  -ms-flex-order: 1;
+  order: 1;
+}
+
+.besure-content-text p {
+  line-height: 1.8;
+  font-family: 'Old Standard TT', serif;
+  font-size: 24px;
+  text-align: justify;
+}
+
+.besure-content-line {
+  width: 80%;
+  height: 2px;
+  background: #A9A9A9;
+  opacity: 0.6;
+}
+
+.besure-content-slider {
+  box-sizing: border-box;
+  word-wrap: break-word;
+  margin-left: 15px;
+  margin-right: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: calc(41.66666666666667% - 30px);
+  -webkit-box-ordinal-group: 3;
+  -ms-flex-order: 2;
+  order: 2;
+}
+
+.besure-content-slider img {
+  width: 80%;
+  height: auto;
+  box-shadow: -2px 11px 55px 6px #b8a7b8;
+}
+
 @media screen and (max-width: 960px) {
   header .header-logo .fa-desktop {
     font-size: 30px;
@@ -1170,6 +1295,18 @@ footer-righttri {
 
   .up i {
     font-size: 50px;
+  }
+
+  .besure-header h2 {
+    font-size: 40px;
+  }
+
+  .besure-content-text p {
+    line-height: 1.2;
+  }
+
+  .besure-content-text p {
+    font-size: 22px;
   }
 }
 
@@ -1346,6 +1483,10 @@ footer-righttri {
     font-size: 18px;
   }
 
+  .skills-img img {
+    height: 60%;
+  }
+
   .skills-line {
     margin-bottom: 20px;
   }
@@ -1474,6 +1615,49 @@ footer-righttri {
 
   .up i {
     font-size: 40px;
+  }
+
+  .besure-line {
+    margin-bottom: 20px;
+  }
+
+  .besure-line {
+    margin-top: 20px;
+  }
+
+  .besure-line-rect {
+    width: 15px;
+  }
+
+  .besure-line-rect {
+    height: 15px;
+  }
+
+  .besure-content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .besure-content-text {
+    width: calc(100% - 30px);
+  }
+
+  .besure-content-text {
+    -webkit-box-ordinal-group: 3;
+    -ms-flex-order: 2;
+    order: 2;
+  }
+
+  .besure-content-slider {
+    width: calc(100% - 30px);
+  }
+
+  .besure-content-slider {
+    -webkit-box-ordinal-group: 2;
+    -ms-flex-order: 1;
+    order: 1;
   }
 }
 

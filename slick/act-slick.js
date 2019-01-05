@@ -1,14 +1,11 @@
 
 $(document).ready(function(){
-  $('.slider-wr').slick({
-  	  dots: true,
+  $('.skills-img').slick({
 	    infinite: true,
 	    speed: 300,
 	    slidesToShow: 1,
 	    autoplay: true,
-	    autoplaySpeed: 3000,
-      nextArrow: '<i class="fa fa-arrow-right"></i>',
-      prevArrow: '<i class="fa fa-arrow-left"></i>'
+	    autoplaySpeed: 3000
   });
 
   $(".c-hamburger").on("click", function(){
