@@ -3,8 +3,6 @@ window.onload = function(){
 		right: 0
 	}, 1000);
 
-  console.log(navigator.userAgent.toLowerCase().indexOf('msie'));
-
 "use strict"
 //Анимация мобильного меню
 $('.header-mobbtn').on('click', function(){
