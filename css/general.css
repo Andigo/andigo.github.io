@@ -583,19 +583,28 @@ header .header-righttri {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -ms-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
 }
 
 .skills-img img {
   border-radius: 50%;
   width: 80%;
   height: auto;
+}
+
+.skills-img .lined {
+  width: 70%;
+  -webkit-transition: width 0.7s ease-in;
+  transition: width 0.7s ease-in;
 }
 
 .skills-line {
@@ -738,6 +747,22 @@ header .header-righttri {
 
 .skills-exp-items figure:hover {
   background: #D3D3D3;
+}
+
+.skills-redline {
+  width: 0%;
+  height: 3px;
+  background: #f00f00;
+  -ms-flex-item-align: start;
+  align-self: flex-start;
+}
+
+.skills-blueline {
+  width: 0%;
+  height: 3px;
+  background: #4169E1;
+  -ms-flex-item-align: end;
+  align-self: flex-end;
 }
 
 .portfolio-line {
@@ -1685,6 +1710,10 @@ footer-righttri {
 
   .gallery h1 {
     font-size: 26px;
+  }
+
+  .gallery h1 {
+    margin-bottom: 15px;
   }
 
   footer {

@@ -3,6 +3,11 @@ window.onload = function(){
 		right: 0
 	}, 1000);
 
+  setTimeout(function(){
+    $('.skills-redline').addClass('lined');
+    $('.skills-blueline').addClass('lined');
+  }, 2000);
+
 "use strict"
 //Анимация мобильного меню
 $('.header-mobbtn').on('click', function(){
