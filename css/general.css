@@ -602,7 +602,7 @@ header .header-righttri {
 }
 
 .skills-img .lined {
-  width: 70%;
+  width: 80%;
   -webkit-transition: width 0.7s ease-in;
   transition: width 0.7s ease-in;
 }
@@ -751,7 +751,7 @@ header .header-righttri {
 
 .skills-redline {
   width: 0%;
-  height: 3px;
+  height: 6px;
   background: #f00f00;
   -ms-flex-item-align: start;
   align-self: flex-start;
@@ -759,7 +759,7 @@ header .header-righttri {
 
 .skills-blueline {
   width: 0%;
-  height: 3px;
+  height: 6px;
   background: #4169E1;
   -ms-flex-item-align: end;
   align-self: flex-end;
@@ -1407,6 +1407,18 @@ footer-righttri {
     width: 60%;
   }
 
+  .skills-img img {
+    margin-top: 15px;
+  }
+
+  .skills-img img {
+    margin-bottom: 15px;
+  }
+
+  .skills-img .lined {
+    width: 100%;
+  }
+
   .skills-exp-items figure {
     width: calc(50% - 30px);
   }
@@ -1606,6 +1618,14 @@ footer-righttri {
 
   .skills-img img {
     width: 70%;
+  }
+
+  .skills-img img {
+    margin-top: 10px;
+  }
+
+  .skills-img img {
+    margin-bottom: 10px;
   }
 
   .skills-line {
